@@ -6,7 +6,7 @@ import time
 
 st.title("GPT-4o AI Image Renamer & Zipper")
 
-openai.api_key = "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # <--- YOUR KEY HERE
+openai.api_key = "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"  # <--- YOUR KEY HERE
 
 uploaded_files = st.file_uploader(
     "Upload images (PNG, JPG, JPEG)",
